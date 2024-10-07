@@ -2,7 +2,6 @@ import argparse
 import torch
 from torch.utils.data import DataLoader
 from alphafold3_pytorch import Alphafold3, alphafold3_inputs_to_batched_atom_input
-from alphafold3_pytorch.data import PDBDataset  # Assuming this dataset class exists
 from torch.utils.tensorboard import SummaryWriter
 import os
 from datetime import datetime
